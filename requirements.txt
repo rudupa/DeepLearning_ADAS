@@ -1,0 +1,43 @@
+# Deep Learning for ADAS - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Scientific Computing
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.10.0
+
+# Jupyter
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Hugging Face Ecosystem
+transformers>=4.35.0
+datasets>=2.14.0
+tokenizers>=0.15.0
+accelerate>=0.24.0
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+albumentations>=1.3.0
+
+# Model Visualization & Monitoring
+torchsummary>=1.5.1
+tensorboard>=2.14.0
+tqdm>=4.66.0
+
+# ONNX (for model export)
+onnx>=1.14.0
+
+# Utilities
+scikit-learn>=1.3.0
+scikit-image>=0.21.0
+pyyaml>=6.0
